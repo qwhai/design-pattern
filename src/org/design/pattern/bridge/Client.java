@@ -1,9 +1,4 @@
-package org.design.pattern.bridge.client;
-
-import org.design.pattern.bridge.impl.MilkAddtion;
-import org.design.pattern.bridge.impl.SuperSizeCoffee;
-import org.design.pattern.bridge.interf.Addable;
-import org.design.pattern.bridge.interf.Coffee;
+package org.design.pattern.bridge;
 
 /**
  * Create Date: 2016年3月17日

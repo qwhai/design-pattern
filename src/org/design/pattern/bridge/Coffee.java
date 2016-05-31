@@ -1,4 +1,4 @@
-package org.design.pattern.bridge.interf;
+package org.design.pattern.bridge;
 
 /**
  * <p>

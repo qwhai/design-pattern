@@ -1,11 +1,8 @@
-package org.design.pattern.bridge.impl;
-
-import org.design.pattern.bridge.interf.Addable;
-import org.design.pattern.bridge.interf.Coffee;
+package org.design.pattern.bridge;
 
 /**
  * <p>
- * 大杯咖啡
+ * 中杯咖啡
  * </p>
  * Create Date: 2016年3月17日
  * Last Modify: 2016年3月30日
@@ -14,18 +11,18 @@ import org.design.pattern.bridge.interf.Coffee;
  * @see <a href="http://blog.csdn.net/lemon_tree12138">http://blog.csdn.net/lemon_tree12138</a>
  * @version 0.1.2
  */
-public class SuperSizeCoffee extends Coffee {
+public class MediumCoffee extends Coffee {
 
     private int capacity = 0;
     
-    public SuperSizeCoffee(Addable addable) {
+    public MediumCoffee(Addable addable) {
         super(addable);
     }
 
     @Override
     public void brewing() {
-        System.out.println("正在冲泡大杯咖啡...");
-        capacity = 500;
+        System.out.println("正在冲泡中杯咖啡...");
+        capacity = 300;
     }
 
     @Override
