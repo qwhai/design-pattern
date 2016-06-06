@@ -16,7 +16,7 @@
     -   [组合模式  Composite](http://blog.csdn.net/lemon_tree12138/article/details/51437883)
     -   [适配器模式  Adapter](http://blog.csdn.net/lemon_tree12138/article/details/50326851)
     -   [代理模式  Proxy](http://blog.csdn.net/lemon_tree12138/article/details/50326817)
-    -   外观模式  Facade
+    -   [外观模式  Facade](http://blog.csdn.net/lemon_tree12138/article/details/51592617)
 -   行为模式
     -   [迭代器模式  Iterator](http://blog.csdn.net/lemon_tree12138/article/details/50799562)
     -   模板方法模式  Template
