@@ -34,3 +34,9 @@
 
 本人CSDN博客 [点击链接](http://blog.csdn.net/lemon_tree12138)
             [设计模式博客专栏](http://blog.csdn.net/column/details/java-designpattern-w.html)
+
+------------------------------------------
+
+我的微博
+
+<iframe class="share_self" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=0&amp;height=120&amp;fansRow=1&amp;ptype=1&amp;speed=0&amp;skin=8&amp;isTitle=1&amp;noborder=1&amp;isWeibo=0&amp;isFans=0&amp;uid=5131020927&amp;verifier=125fcf9d&amp;dpc=1" frameborder="0" height="120" width="100%"></iframe>
