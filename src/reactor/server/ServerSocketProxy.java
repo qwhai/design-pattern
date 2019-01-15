@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.net.ServerSocket;
 import java.net.Socket;
 
 public class ServerSocketProxy implements Runnable {
@@ -21,7 +20,7 @@ public class ServerSocketProxy implements Runnable {
         try {
             BufferedReader buffer = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
-            String line = null;
+            String line;
             while ((line = buffer.readLine()) != null) {
                 System.out.println(line);
             }
@@ -35,7 +34,7 @@ public class ServerSocketProxy implements Runnable {
         }
     }
 
-    public void start() {
+    void start() {
         if (null == thread) {
             thread = new Thread(this);
             thread.start();

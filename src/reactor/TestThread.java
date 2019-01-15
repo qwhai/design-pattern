@@ -17,7 +17,7 @@ class RunnableDemo implements Runnable {
                 // 让线程睡眠一会
                 Thread.sleep(50);
             }
-        }catch (InterruptedException e) {
+        } catch (InterruptedException e) {
             System.out.println("Thread " +  threadName + " interrupted.");
         }
         System.out.println("Thread " +  threadName + " exiting.");

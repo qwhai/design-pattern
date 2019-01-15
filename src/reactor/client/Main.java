@@ -2,13 +2,12 @@ package reactor.client;
 
 import java.io.*;
 import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class Main {
 
     private static final String DOMAIN = "127.0.0.1";
-    private static final int PORT = 10004;
+    private static final int PORT = 23413;
 
     private static Scanner input = new Scanner(System.in);
 
@@ -18,7 +17,7 @@ public class Main {
 
         Socket socket = new Socket(DOMAIN, PORT);
 
-        String data = "";
+        String data;
         BufferedWriter out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
         while (!(data = input.nextLine()).equalsIgnoreCase("eof")){
             out.write(data);
