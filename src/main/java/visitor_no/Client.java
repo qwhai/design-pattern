@@ -1,4 +1,4 @@
-package org.design.pattern.visitor_no;
+package visitor_no;
 
 import java.util.ArrayList;
 import java.util.Collection;

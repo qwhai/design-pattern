@@ -1,4 +1,4 @@
-package org.design.pattern.visitor_no;
+package visitor_no;
 
 /**
  * <p></p>
@@ -9,5 +9,14 @@ package org.design.pattern.visitor_no;
  * @see <a href="http://blog.csdn.net/lemon_tree12138">http://blog.csdn.net/lemon_tree12138</a>
  * @version 0.0.1
  */
-interface Element {
+class StringElement implements Element {
+    private String value;
+
+    public StringElement(String string) {
+        value = string;
+    }
+
+    public String getValue() {
+        return value;
+    }
 }

@@ -9,4 +9,4 @@
  * @see <a href="http://blog.csdn.net/lemon_tree12138">http://blog.csdn.net/lemon_tree12138</a>
  * @version 0.0.1
  */
-package org.design.pattern.visitor_no;
+package visitor_no;
