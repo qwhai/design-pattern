@@ -8,7 +8,7 @@ public abstract class AbstractDisplay {
 
     public abstract void close();
 
-    public final void display() {
+    final void display() {
         open();
         for (int i = 0; i < 5; i++){
             print();
@@ -16,5 +16,4 @@ public abstract class AbstractDisplay {
 
         close();
     }
-
 }
