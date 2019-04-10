@@ -1,7 +1,7 @@
 package design.pattern.proxy.access;
 
 /**
- * @Description TODO
+ * @Description
  *      1.root
  *      2.管理员
  *      3.作者

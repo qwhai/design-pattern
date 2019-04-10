@@ -30,6 +30,18 @@
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.javatuples</groupId>
+      <artifactId>javatuples</artifactId>
+      <version>1.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>cglib</groupId>
+      <artifactId>cglib-nodep</artifactId>
+      <version>2.2.2</version>
+    </dependency>
   </dependencies>
 
   <build>
