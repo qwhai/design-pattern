@@ -1,5 +1,7 @@
-package design.pattern.state;
+package design.pattern;
 
+import design.pattern.state.Lift;
+import design.pattern.state.StoppingState;
 import org.junit.Test;
 
 /**
@@ -7,7 +9,7 @@ import org.junit.Test;
  * @Author: Q-WHai
  * @Date: Created in 16:40 2019/04/10
  */
-public class StateTest {
+public class StatePatternTest {
 
     // 正常情况下的测试
     @Test

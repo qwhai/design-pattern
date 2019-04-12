@@ -12,13 +12,13 @@ public class Lift {
     static final State runningState = new RunningState();
     static final State stoppingState = new StoppingState();
 
-    protected State state;
+    private State state;
 
     public Lift(State state) {
         switchState(state);
     }
 
-    public void switchState(State state) {
+    void switchState(State state) {
         this.state = state;
         this.state.setContext(this);
     }

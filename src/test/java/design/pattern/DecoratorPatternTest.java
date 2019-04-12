@@ -1,5 +1,6 @@
-package design.pattern.decorator;
+package design.pattern;
 
+import design.pattern.decorator.*;
 import org.junit.Test;
 
 /**
@@ -7,7 +8,7 @@ import org.junit.Test;
  * @Author: Q-WHai
  * @Date: Created in 17:51 2019/04/10
  */
-public class DecoratorTest {
+public class DecoratorPatternTest {
 
     @Test
     public void test1() {

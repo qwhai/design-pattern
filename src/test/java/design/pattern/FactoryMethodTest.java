@@ -1,4 +1,4 @@
-package design.pattern.factory.method;
+package design.pattern;
 
 import design.pattern.factory.method.framework.Factory;
 import design.pattern.factory.method.framework.Product;

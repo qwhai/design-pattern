@@ -24,7 +24,7 @@
     - [外观模式  Facade](https://qwhai.blog.csdn.net/article/details/51592617)
 - 行为模式
     - [迭代器模式 Iterator](https://qwhai.blog.csdn.net/article/details/50799562)
-    - 模板方法模式 Template
+    - [模板方法模式 Template Method](src/main/java/design/pattern/template)
     - 责任链模式 Chain of Responsibility
     - 备忘录模式 Memento
     - 中介者模式 Mediator

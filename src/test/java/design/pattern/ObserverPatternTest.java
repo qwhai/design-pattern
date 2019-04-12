@@ -1,10 +1,11 @@
-package design.pattern.observer;
+package design.pattern;
 
+import design.pattern.observer.*;
 import design.pattern.observer.framework.NumberGenerator;
 import design.pattern.observer.framework.Observer;
 import org.junit.Test;
 
-public class ObserverTest {
+public class ObserverPatternTest {
 
     @Test
     public void testObserver() {

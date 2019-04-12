@@ -1,8 +1,11 @@
-package design.pattern.template;
+package design.pattern;
 
+import design.pattern.template.AbstractDisplay;
+import design.pattern.template.CharDisplay;
+import design.pattern.template.StringDisplay;
 import org.junit.Test;
 
-public class TemplateTest {
+public class TemplatePatternTest {
 
     @Test
     public void testTemplate() {

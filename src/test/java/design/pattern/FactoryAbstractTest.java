@@ -1,4 +1,4 @@
-package design.pattern.factory.abstr;
+package design.pattern;
 
 import design.pattern.factory.abstr.framework.BlueShapeFactory;
 import design.pattern.factory.abstr.framework.RedShapeFactory;
@@ -6,7 +6,7 @@ import design.pattern.factory.abstr.framework.Shape;
 import design.pattern.factory.abstr.framework.ShapeFactory;
 import org.junit.Test;
 
-public class AbstractFactoryTest {
+public class FactoryAbstractTest {
 
     @Test
     public void test1() {

@@ -2,19 +2,19 @@ package design.pattern.singleton;
 
 import java.util.UUID;
 
-class Settings {
+public class Settings {
 
     private String uuid;
 
     private static Settings instance;
 
-    static Settings getInstance() {
+    public static Settings getInstance() {
         if (null == instance) instance = new Settings();
 
         return instance;
     }
 
-    String getUuid() {
+    public String getUuid() {
         return uuid;
     }
 

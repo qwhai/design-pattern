@@ -1,4 +1,4 @@
-package design.pattern.proxy;
+package design.pattern;
 
 import design.pattern.proxy.access.*;
 import design.pattern.proxy.dynamic.cglib.CglibProxy;
@@ -20,9 +20,9 @@ import java.lang.reflect.Proxy;
  * @Author: Q-WHai
  * @Date: Created in 17:11 2019/03/27
  */
-public class ProxyTest {
+public class ProxyPatternTest {
 
-    private Logger logger = Logger.getLogger(ProxyTest.class);
+    private Logger logger = Logger.getLogger(ProxyPatternTest.class);
 
     // 测试虚代理1
     @Test
