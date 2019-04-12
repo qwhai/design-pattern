@@ -12,5 +12,6 @@ public class CommandPatternTest {
     @Test
     public void test1() {
         // TODO
+
     }
 }
