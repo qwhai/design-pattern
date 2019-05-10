@@ -39,6 +39,6 @@
 
 ------------------------------------------
 
-本人CSDN博客 [点击链接](https://qwhai.blog.csdn.net/)
-
-[设计模式博客专栏](http://blog.csdn.net/column/details/java-designpattern-w.html)
+- [CSDN](https://qwhai.blog.csdn.net/)
+- [Design pattern special column](http://blog.csdn.net/column/details/java-designpattern-w.html)
+- [Github](https://github.com/qwhai)
