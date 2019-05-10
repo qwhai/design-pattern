@@ -1,9 +1,9 @@
-package design.pattern.command;
+package design.pattern.command2;
 
-import design.pattern.command.drawer.DrawCanvas;
+import design.pattern.command2.drawer.DrawCanvas;
+import design.pattern.command2.drawer.DrawCommand;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 
 /**
@@ -36,9 +36,12 @@ public class PanelJFrame extends JFrame implements ActionListener, MouseMotionLi
         show();
     }
 
+    public static void main(String[] args) {
+        new PanelJFrame("Command Design Pattern.");
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
-        // TODO
         if (e.getSource() == clearButton) {
             history.clear();
             canvas.repaint();
@@ -46,57 +49,35 @@ public class PanelJFrame extends JFrame implements ActionListener, MouseMotionLi
     }
 
     @Override
-    public boolean mouseMove(Event evt, int x, int y) {
-        return super.mouseMove(evt, x, y);
-    }
-
-    @Override
-    public boolean mouseDrag(Event evt, int x, int y) {
-        return super.mouseDrag(evt, x, y);
-    }
-
-    @Override
     public void mouseDragged(MouseEvent e) {
-        // TODO
-    }
-
-    @Override
-    public void mouseMoved(MouseEvent e) {
-        // TODO
-    }
-
-    @Override
-    public void windowOpened(WindowEvent e) {
-        // TODO
-    }
-
-    @Override
-    public void windowClosed(WindowEvent e) {
-        // TODO
-    }
-
-    @Override
-    public void windowIconified(WindowEvent e) {
-        // TODO
-    }
-
-    @Override
-    public void windowDeactivated(WindowEvent e) {
-        // TODO
-    }
-
-    @Override
-    public void windowDeiconified(WindowEvent e) {
-        // TODO
-    }
-
-    @Override
-    public void windowActivated(WindowEvent e) {
-        // TODO
+        ICommand cmd = new DrawCommand(canvas, e.getPoint());
+        history.append(cmd);
+        cmd.execute();
     }
 
     @Override
     public void windowClosing(WindowEvent e) {
-        // TODO
+        System.exit(0);
     }
+
+    @Override
+    public void mouseMoved(MouseEvent e) { }
+
+    @Override
+    public void windowOpened(WindowEvent e) { }
+
+    @Override
+    public void windowClosed(WindowEvent e) { }
+
+    @Override
+    public void windowIconified(WindowEvent e) { }
+
+    @Override
+    public void windowDeactivated(WindowEvent e) { }
+
+    @Override
+    public void windowDeiconified(WindowEvent e) { }
+
+    @Override
+    public void windowActivated(WindowEvent e) { }
 }

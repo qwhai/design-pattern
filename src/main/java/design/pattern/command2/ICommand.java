@@ -1,4 +1,4 @@
-package design.pattern.command;
+package design.pattern.command2;
 
 /**
  * @Description TODO

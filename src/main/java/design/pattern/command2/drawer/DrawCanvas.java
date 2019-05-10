@@ -1,6 +1,6 @@
-package design.pattern.command.drawer;
+package design.pattern.command2.drawer;
 
-import design.pattern.command.MacroCommand;
+import design.pattern.command2.MacroCommand;
 
 import java.awt.*;
 

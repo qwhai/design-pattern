@@ -1,4 +1,4 @@
-package design.pattern.command.drawer;
+package design.pattern.command2.drawer;
 
 /**
  * @Description TODO

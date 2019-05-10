@@ -1,34 +1,35 @@
 package design.pattern.command;
 
+import design.pattern.command.cmd.Command;
+
 import java.util.Iterator;
 import java.util.Stack;
 
 /**
- * @Description TODO
- * @Author: Q-WHai
- * @Date: Created in 18:18 2019/04/12
+ * @Description 指令序列
+ * @Author Q-WHai
+ * @Date 2019/4/13 15:37
  */
-public class MacroCommand implements ICommand {
-
-    private Stack commands = new Stack();
+public class MacroCommand implements Command {
+    private Stack<Command> commands = new Stack<>();
 
     @Override
     public void execute() {
+        // TODO
         Iterator iterator = commands.iterator();
         while (iterator.hasNext()) {
-            ((ICommand) iterator.next()).execute();
+            ((Command) iterator.next()).execute();
         }
     }
 
-    public void append(ICommand cmd) {
-        if (cmd != this) {
-            commands.push(cmd);
+    public void append(Command cmd) {
+        if (this != cmd) {
+            commands.add(cmd);
         }
     }
 
     public void undo() {
-        if (commands.empty()) return;
-        commands.pop();
+        // TODO
     }
 
     public void clear() {
