@@ -1,5 +1,6 @@
 package design.pattern;
 
+import design.pattern.command.*;
 import org.junit.Test;
 
 /**
@@ -12,6 +13,14 @@ public class CommandPatternTest {
     @Test
     public void test1() {
         // TODO
+        Barkbecuer barkbecuer = new Barkbecuer();
+        Command cmd1 = new BakeMuttonCommand(barkbecuer);
+        Command cmd2 = new BakeChickenWingCommand(barkbecuer);
 
+        Waiter waiter = new Waiter();
+        waiter.setOrder(cmd1);
+        waiter.setOrder(cmd2);
+
+        waiter.notifyy();
     }
 }
