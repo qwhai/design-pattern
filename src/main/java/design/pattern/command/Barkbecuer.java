@@ -10,11 +10,11 @@ public class Barkbecuer {
 
     private final Logger logger = Logger.getLogger(Barkbecuer.class);
 
-    public void bakeMutton() {
+    void bakeMutton() {
         logger.info("烤羊肉串");
     }
 
-    public void bakeChickenWing() {
+    void bakeChickenWing() {
         logger.info("烤鸡翅膀");
     }
 }

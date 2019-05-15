@@ -12,15 +12,31 @@ public class CommandPatternTest {
 
     @Test
     public void test1() {
-        // TODO
         Barkbecuer barkbecuer = new Barkbecuer();
         Command cmd1 = new BakeMuttonCommand(barkbecuer);
         Command cmd2 = new BakeChickenWingCommand(barkbecuer);
 
         Waiter waiter = new Waiter();
-        waiter.setOrder(cmd1);
-        waiter.setOrder(cmd2);
+        waiter.addCommand(cmd1);
+        waiter.addCommand(cmd2);
 
-        waiter.notifyy();
+        waiter.update();
+    }
+
+    @Test
+    public void test2() {
+        Barkbecuer barkbecuer = new Barkbecuer();
+        Command cmd1 = new BakeMuttonCommand(barkbecuer);
+        Command cmd2 = new BakeChickenWingCommand(barkbecuer);
+        Command cmd3 = new BakeChickenWingCommand(barkbecuer);
+
+        Waiter waiter = new Waiter();
+        waiter.addCommand(cmd1);
+        waiter.addCommand(cmd2);
+        waiter.addCommand(cmd3);
+
+        waiter.undoCommand(cmd2);
+
+        waiter.update();
     }
 }
