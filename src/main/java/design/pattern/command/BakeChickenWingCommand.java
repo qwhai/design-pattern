@@ -14,4 +14,14 @@ public class BakeChickenWingCommand extends Command {
     public void execute() {
         receiver.bakeChickenWing();
     }
+
+    @Override
+    public void undo() {
+        // TOOD
+    }
+
+    @Override
+    public void redo() {
+        // TOOD
+    }
 }

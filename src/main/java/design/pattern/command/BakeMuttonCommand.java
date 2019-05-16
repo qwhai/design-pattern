@@ -14,4 +14,14 @@ public class BakeMuttonCommand extends Command {
     public void execute() {
         receiver.bakeMutton();
     }
+
+    @Override
+    public void undo() {
+        // TOOD
+    }
+
+    @Override
+    public void redo() {
+        // TOOD
+    }
 }

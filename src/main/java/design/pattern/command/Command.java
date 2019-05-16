@@ -14,4 +14,10 @@ public abstract class Command {
 
     // 执行命令
     public abstract void execute();
+
+    // 撤消
+    public abstract void undo();
+
+    // 恢复
+    public abstract void redo();
 }

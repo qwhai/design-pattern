@@ -15,11 +15,6 @@ public class Waiter {
         this.commands.add(command);
     }
 
-    // 撤消订单命令
-    public void undoCommand(Command command) {
-        commands.remove(command);
-    }
-
     public void update() {
         for (Command cmd : commands) {
             cmd.execute();
