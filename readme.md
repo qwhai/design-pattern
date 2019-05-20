@@ -33,7 +33,7 @@
     - [状态模式 State](https://qwhai.blog.csdn.net/article/details/51596556)
     - [观察者模式 Observer](https://qwhai.blog.csdn.net/article/details/45483511)
     - 访问者模式 Visitor
-    - 命令模式 Command
+    - [命令模式 Command](src/main/java/design/pattern/command)
 - IO
     - [反应堆模式 Reactor]()
 
