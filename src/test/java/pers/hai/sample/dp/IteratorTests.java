@@ -1,8 +1,8 @@
-package design.pattern;
+package pers.hai.sample.dp;
 
-import design.pattern.iterator.Book;
-import design.pattern.iterator.BookShelf;
-import design.pattern.iterator.Iterator;
+import pers.hai.sample.dp.iterator.Book;
+import pers.hai.sample.dp.iterator.BookShelf;
+import pers.hai.sample.dp.iterator.Iterator;
 import org.junit.Test;
 
 /**

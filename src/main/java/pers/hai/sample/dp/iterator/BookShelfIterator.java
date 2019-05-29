@@ -1,4 +1,4 @@
-package design.pattern.iterator;
+package pers.hai.sample.dp.iterator;
 
 /**
  * TODO
