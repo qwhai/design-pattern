@@ -1,9 +1,9 @@
 ## design-pattern
 基于Java的设计模式集合示例
 
-![](https://img.shields.io/badge/java-12-brightgreen.svg)
-![](https://img.shields.io/badge/ide-IntelliJ%20IDEA-brown.svg)
-![](https://img.shields.io/badge/maven-3.6.0-coral.svg)
+![](https://img.shields.io/badge/java-1.8-red.svg)
+![](https://img.shields.io/badge/intellij%20idea-2018.3.3-brown.svg)
+![](https://img.shields.io/badge/maven-3.6.0-thistle.svg)
 
 ------------------------------------------
 
@@ -24,7 +24,7 @@
     - [外观模式  Facade](https://qwhai.blog.csdn.net/article/details/51592617)
 - 行为模式
     - [迭代器模式 Iterator](https://qwhai.blog.csdn.net/article/details/50799562)
-    - [模板方法模式 Template Method](src/main/java/design/pattern/template)
+    - [模板方法模式 Template Method](src/main/java/pers/hai/sample/dp/template)
     - 责任链模式 Chain of Responsibility
     - 备忘录模式 Memento
     - 中介者模式 Mediator
@@ -33,7 +33,7 @@
     - [状态模式 State](https://qwhai.blog.csdn.net/article/details/51596556)
     - [观察者模式 Observer](https://qwhai.blog.csdn.net/article/details/45483511)
     - 访问者模式 Visitor
-    - [命令模式 Command](src/main/java/design/pattern/command)
+    - [命令模式 Command](src/main/java/pers/hai/sample/dp/command)
 - IO
     - [反应堆模式 Reactor]()
 
@@ -42,3 +42,4 @@
 - [CSDN](https://qwhai.blog.csdn.net/)
 - [Design pattern special column](http://blog.csdn.net/column/details/java-designpattern-w.html)
 - [Github](https://github.com/qwhai)
+- [E-mail](return_zero0@163.com)
