@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public interface ITicketable {
 
-    Map<String, Double> ticketMap = new HashMap<>() {
+    Map<String, Double> ticketMap = new HashMap<String, Double>() {
         {
             put("nanjing|shanghaihongqiao", 139.5);
             put("nanjingnan|shanghaihongqiao", 144.5);

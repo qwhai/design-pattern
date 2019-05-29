@@ -14,7 +14,7 @@ public class NanjingnanStation implements IStation {
 
     private Logger logger = Logger.getLogger(NanjingnanStation.class);
 
-    private Map<String, Integer> _ticketSurplus = new HashMap<>() {
+    private Map<String, Integer> _ticketSurplus = new HashMap<String, Integer>() {
         {
             put("nanjing|shanghaihongqiao", 10);
             put("nanjingnan|shanghaihongqiao", 60);

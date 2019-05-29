@@ -17,7 +17,7 @@ public class NanjingStation implements IStation {
 
     private Logger logger = Logger.getLogger(NanjingStation.class);
 
-    private Map<TravelPorts, Integer> _ticketSurplus = new HashMap<>() {
+    private Map<TravelPorts, Integer> _ticketSurplus = new HashMap<TravelPorts, Integer>() {
         {
             put(new TravelPorts("南京", "上海虹桥"), 20);
             put(new TravelPorts("南京南", "上海虹桥"), 16);

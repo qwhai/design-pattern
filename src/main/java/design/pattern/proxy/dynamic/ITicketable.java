@@ -13,7 +13,7 @@ import java.util.Map;
  */
 public interface ITicketable {
 
-    Map<TravelPorts, Double> ticketMap = new HashMap<>() {
+    Map<TravelPorts, Double> ticketMap = new HashMap<TravelPorts, Double>() {
         {
             put(new TravelPorts("南京", "上海虹桥"), 139.5);
             put(new TravelPorts("南京南", "上海虹桥"), 144.5);
