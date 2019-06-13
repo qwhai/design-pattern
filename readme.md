@@ -26,7 +26,7 @@
     - [迭代器模式 Iterator](https://qwhai.blog.csdn.net/article/details/50799562)
     - [模板方法模式 Template Method](src/main/java/pers/hai/sample/dp/template)
     - 责任链模式 Chain of Responsibility
-    - 备忘录模式 Memento
+    - [备忘录模式 Memento](src/main/java/pers/hai/sample/dp/memento)
     - 中介者模式 Mediator
     - 解释器模式 Interpreter
     - [策略模式 Strategy](https://qwhai.blog.csdn.net/article/details/45894511)
