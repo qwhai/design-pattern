@@ -28,7 +28,7 @@
     - [责任链模式 Chain of Responsibility](src/main/java/pers/hai/sample/dp/cor)
     - [备忘录模式 Memento](src/main/java/pers/hai/sample/dp/memento)
     - [中介者模式 Mediator](src/main/java/pers/hai/sample/dp/mediator)
-    - 解释器模式 Interpreter
+    - [解释器模式 Interpreter](src/main/java/pers/hai/sample/dp/interpreter)
     - [策略模式 Strategy](https://qwhai.blog.csdn.net/article/details/45894511)
     - [状态模式 State](https://qwhai.blog.csdn.net/article/details/51596556)
     - [观察者模式 Observer](https://qwhai.blog.csdn.net/article/details/45483511)
