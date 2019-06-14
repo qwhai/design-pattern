@@ -25,7 +25,7 @@
 - 行为模式
     - [迭代器模式 Iterator](https://qwhai.blog.csdn.net/article/details/50799562)
     - [模板方法模式 Template Method](src/main/java/pers/hai/sample/dp/template)
-    - 责任链模式 Chain of Responsibility
+    - [责任链模式 Chain of Responsibility](src/main/java/pers/hai/sample/dp/cor)
     - [备忘录模式 Memento](src/main/java/pers/hai/sample/dp/memento)
     - [中介者模式 Mediator](src/main/java/pers/hai/sample/dp/mediator)
     - 解释器模式 Interpreter
