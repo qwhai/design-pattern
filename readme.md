@@ -27,12 +27,12 @@
     - [模板方法模式 Template Method](src/main/java/pers/hai/sample/dp/template)
     - 责任链模式 Chain of Responsibility
     - [备忘录模式 Memento](src/main/java/pers/hai/sample/dp/memento)
-    - [中介者模式 Mediator](src/main/java/pers/hai/sample/dp/visitor)
+    - [中介者模式 Mediator](src/main/java/pers/hai/sample/dp/mediator)
     - 解释器模式 Interpreter
     - [策略模式 Strategy](https://qwhai.blog.csdn.net/article/details/45894511)
     - [状态模式 State](https://qwhai.blog.csdn.net/article/details/51596556)
     - [观察者模式 Observer](https://qwhai.blog.csdn.net/article/details/45483511)
-    - 访问者模式 Visitor
+    - [访问者模式 Visitor](src/main/java/pers/hai/sample/dp/visitor)
     - [命令模式 Command](src/main/java/pers/hai/sample/dp/command)
 - IO
     - [反应堆模式 Reactor]()
